@@ -1,0 +1,9 @@
+What is a Node module?
+- A set functions included it in our app. Similar in usage to a JS library.
+
+What is the main difference between exports and module.exports?
+- While both have the same core function, module.exports should only be used over
+exports when we plan for our object to have specific type.
+Why is using exports recommended?
+- When using module.exports assignment operations will generate  errors in our
+app but if we use exports we won't have that issue.
